@@ -1,0 +1,5 @@
+This otherTail is what I got from asking chatgpt,
+
+In my implementation of the tail command I navigated through the file keeping track of how many lines there were, navigated to the start of the file, then started writing however many lines down I needed to be to be 10 lines from the bottom.
+
+In the chatgpt implementation of the tail command it goes to the end of the file and reads it backwards but also writes the characters as it reads them making the output be backwards and not actually how tail has it's output.
